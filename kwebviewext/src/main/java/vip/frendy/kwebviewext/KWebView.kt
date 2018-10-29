@@ -2,6 +2,7 @@ package vip.frendy.kwebviewext
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.res.Resources
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.webkit.WebSettings
@@ -11,7 +12,8 @@ import android.webkit.WebView
  * Created by frendy on 2017/7/24.
  */
 
-class KWebView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) : WebView(context, attrs, defStyleAttr) {
+class KWebView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null
+                                         , defStyleAttr: Int = Resources.getSystem().getIdentifier("webViewStyle","attr","android")) : WebView(context, attrs, defStyleAttr) {
 
     var isProceedTouchEvent = false
 

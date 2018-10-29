@@ -14,7 +14,7 @@ class MainActivity: AppCompatActivity() {
 
     val URL_DEFAULT = "http://frendy.vip/"
     val URL_VIDEO_LIST = "https://www.youtube.com/results?sp=EgIQAVAU&search_query=谢霆锋&p=1"
-    val URL_TEST = "https://www.thestartmagazine.com/feed/summary?isDesktop=false&publisherId=AmitG-Test&key=c3m1HOi41aZMgJ6WAPBef3cvv26Gw3Tn&vendor=365scores&genericDimension=WorldCup&countryCode=UK&language=en"
+    val URL_TEST = "https://www.facebook.com/"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
